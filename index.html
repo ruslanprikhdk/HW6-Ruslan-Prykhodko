@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,11 +15,11 @@
        </div>
        <div class="login clearfix">
            <span class="log"><img src="img/login.png" alt="login"/></span>
-           <form action="/">
+           <form action="/" method="post">
               <input type="text" placeholder="логин" name="id">
               <input type="password" placeholder="пароль" name="password">
-           </form>
-           <a href="/" class="link">вход</a>
+              <input type="submit" class="link3" value="вход">
+           </form> 
            <span class="bar">&#124;</span>
            <a href="/" class="link">регистрация</a>
            <a href="/" class="link2">забыли пароль?</a>
@@ -335,8 +335,9 @@
               <p class="brands1"><img class="brands1_1" src="img/tyre1.png" alt="brand"></p>
               <p class="brands1">ШИНЫ</p>
           </div>
-          <div class="brand2">
-              <input class="brands2_1" type="checkbox">
+          <form action="/" method="post">
+          <div class="brand2">             
+              <input class="brands2_1" type="checkbox"> 
               <p class="brands2">Бренд 1</p>
           </div>
           <div class="brand3">
@@ -363,9 +364,9 @@
               <input class="brands2_1" type="checkbox">
               <p class="brands4">Бренд 3</p>
           </div>
-          <div class="submit">
-                <a class="button" href="/">ВЫБРАТЬ</a>
+          <input type="submit" class="button" value="ВЫБРАТЬ">
           </div>
+          </form> 
         </div>
     </main>
     <section class="logos clearfix">
