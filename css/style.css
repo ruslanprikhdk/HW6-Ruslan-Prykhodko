@@ -148,7 +148,7 @@ input,
     border: 1px solid #c1c8cb;
     border-radius: 10px;
     padding: 3.5px;
-    margin: 0px 12px 0px 18px;
+    margin: 0px 0px 0px 10px;
 }
 
 .home,
@@ -244,7 +244,7 @@ nav {
 }
 
 .stat {
-   margin-left: 54px;
+   margin-left: 37px;
    margin-top: 3px;
    vertical-align: middle;
 }
@@ -297,7 +297,7 @@ section {
 }
 
 .car {
-    width: 414px;
+    width: 416px;
     height: 132px;
     float: left;
     background-color: white;
@@ -368,7 +368,7 @@ vertical-align: top;
 }
 
 .left {
-    width: 200px;
+    width: 209px;
     float: left;
 }
 
@@ -509,8 +509,8 @@ vertical-align: top;
 
 .right {
    float: right;
-   margin-right: 10px;
-   width: 198px;
+   margin-right: -2px;
+   width: 209px;
 }
 
 .right .line1 {
@@ -652,13 +652,13 @@ vertical-align: top;
     border: 1px solid grey;
     border-radius: 15px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    width: 266px;
+    width: 295px;
     position: relative;
     left: -10px;
 }
 
 .disk2 {
-    width: 266px;
+    width: 295px;
     height: 110px;
     float: left;
     text-align: left;
@@ -668,7 +668,7 @@ vertical-align: top;
 
 .left2 {
     margin-left: 15px;
-    width: 159px;
+    width: 164px;
     height: 113px;
     float: left;
 }
@@ -775,7 +775,7 @@ vertical-align: top;
 
 .left3 {
     margin-top: 2px;
-    width: 81px;
+    width: 95px;
     height: 106px;
     float: left;
     border-left: 1px solid black;
